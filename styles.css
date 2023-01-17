@@ -109,7 +109,32 @@ header{
 
 /* sub section */
 .sub-section{
-    height: 60vh;
+    width: 100%;
+    height: 70vh;
+    border: 3px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* sub section info */
+.first-section{
+    overflow: hidden;
+    flex-direction: column;
+}
+.first-section h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--dark-bck-clr);
+}
+
+.images-container{
+    width: 80%;
+    border: 2px solid red;
+    display: flex;
+}
+
+.images{
+    width: 20%;
+    border: 3px solid var(--main-clr);
+}
