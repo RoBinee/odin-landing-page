@@ -51,7 +51,7 @@ header{
     padding: 10px 20px;
     margin: 0 10px;
 }
-.logo{
+#logo{
     font-weight: bold;
     color: var(--white-clr);
     font-size: 24px;
@@ -73,24 +73,22 @@ header{
     overflow: hidden;
     color: var(--white-clr);
     display: flex;
-    gap: 30px;
 }
-.info,.main-img{
-    width: 50%;
-    flex: auto;
+.info,.hero-img{
+    flex: 1;
 }
 .info{
     padding: 30px;
 }
-.main-img{
+.hero-img{
     object-fit: cover;
 }
 
-.main-text{
+.info > h1{
     font-size: 48px;
     font-weight: bold;
 }
-.second-text{
+.info > p{
     font-size: 18px;
     color: var(--white-clr2);
 }
