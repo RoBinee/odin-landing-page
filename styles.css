@@ -212,4 +212,14 @@ header{
     border: 2px solid var(--white-clr);
     padding: 5px 30px;
 }
-    
+
+/* footer */
+
+footer{
+    height: 15vh;
+    background: var(--dark-bck-clr);
+    color: var(--white-clr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
