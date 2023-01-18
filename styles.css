@@ -153,3 +153,31 @@ header{
     color: var(--gray-font-clr);
     margin-top: 10px;
 }
+
+/* sub section */
+.quote{
+    background: var(--gray-clr);
+    height: 70vh;
+    display: flex;
+    padding: 100px 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container{
+    border: 1px solid black;
+}
+
+.quote > h3{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--dark-bck-clr);
+}
+
+.quote > h4{
+    align-self: flex-end;
+    font-size: 23px;
+    margin-top: 15px;
+}
