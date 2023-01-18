@@ -157,7 +157,7 @@ header{
 /* sub section */
 .quote{
     background: var(--gray-clr);
-    height: 70vh;
+    height: 65vh;
     display: flex;
     padding: 100px 300px;
     flex-direction: column;
