@@ -69,33 +69,33 @@ header{
     justify-content: center;
 }
 
-.content{
+.hero-container{
     width: 80%;
     height: 60%;
     overflow: hidden;
     color: var(--white-clr);
     display: flex;
 }
-.info,.hero-img{
+.hero-desc,.hero-img{
     flex: 1;
 }
-.info{
+.hero-desc{
     padding: 30px;
 }
 .hero-img{
     object-fit: cover;
 }
 
-.info > h1{
+.hero-desc > h1{
     font-size: 48px;
     font-weight: bold;
 }
-.info > p{
+.hero-desc > p{
     font-size: 18px;
     color: var(--white-clr2);
 }
 
-/* btn */
+/* btn filled */
 .btn{
     font-size: 17px;
     border-radius: 10px;
@@ -110,29 +110,25 @@ header{
 /* sub section */
 .sub-section{
     width: 100%;
-    height: 80vh;
-    border: 3px solid gray;
     padding: 80px 60px;
+    height: 80vh;
 }
 
-/* sub section info */
-
-.first-section h2{
+/* random-info section */
+.random-info h2{
     text-align: center;
     font-size: 36px;
     font-weight: bold;
     color: var(--dark-bck-clr);
     margin-bottom: 55px;
 }
-.card-container{
-    /* border: 1px solid blue; */
+.cards-container{
     display: flex;
     justify-content: space-around;
 }
-/* single card */
 
+/* single card */
 .card{
-    /* border: 3px solid black; */
     width: 230px;
     height: 280px;
 }
@@ -154,7 +150,7 @@ header{
     margin-top: 10px;
 }
 
-/* sub section */
+/* quote section*/
 .quote{
     background: var(--gray-clr);
     height: 65vh;
@@ -163,10 +159,6 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.quote-container{
-    border: 1px solid black;
 }
 
 .quote > h3{
@@ -182,8 +174,8 @@ header{
     margin-top: 15px;
 }
 
-/* final section */
-.final{
+/* sign-up section */
+.sign-up{
     width: 100%;
     height: 50vh;
 }
