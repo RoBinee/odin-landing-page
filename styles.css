@@ -181,3 +181,35 @@ header{
     font-size: 23px;
     margin-top: 15px;
 }
+
+/* final section */
+.final{
+    width: 100%;
+    height: 50vh;
+}
+.blue-box{
+    width: 80%;
+    height: 80%;
+    margin: auto auto;
+    background: var(--main-clr);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box-desc{
+    color: var(--white-clr);
+}
+.box-desc > h4{
+    font-size: 25px;
+}
+.box-desc > p{
+    font-size: 18px;
+}
+/* btn empty */
+.empty{
+    color: var(--white-clr);
+    border: 2px solid var(--white-clr);
+    padding: 5px 30px;
+}
+    
